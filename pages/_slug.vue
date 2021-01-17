@@ -1,5 +1,10 @@
 <template>
-  <article class="prose prose-sm">
+  <article>
+    <div class="p-2">
+      <a href="/">
+        <font-awesome-icon :icon="['fas', 'chevron-circle-left']"/>
+      </a>
+    </div>
     <p class="text-gray-500">
       {{ article.timestamp }}
     </p>
