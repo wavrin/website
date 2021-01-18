@@ -24,17 +24,17 @@
                   <div class="flex items-center">
                     <div class="p-2">
                       <a href="https://twitter.com/wavrin">
-                        <font-awesome-icon :icon="['fab', 'twitter']"/>
+                        <font-awesome-icon :icon="['fab', 'twitter']" />
                       </a>
                     </div>
                     <div class="p-2">
                       <a href="https://www.linkedin.com/in/wavrin/">
-                        <font-awesome-icon :icon="['fab', 'linkedin']"/>
+                        <font-awesome-icon :icon="['fab', 'linkedin']" />
                       </a>
                     </div>
                     <div class="p-2">
                       <a href="https://github.com/wavrin">
-                        <font-awesome-icon :icon="['fab', 'github']"/>
+                        <font-awesome-icon :icon="['fab', 'github']" />
                       </a>
                     </div>
                   </div>
@@ -56,7 +56,7 @@
             <div class="md:hidden flex items-center">
               <NuxtLink to="/">
                 <div>
-                  <img class="inline-block h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  <img class="inline-block h-10 w-10 rounded-full" src="~/assets/wavrin.jpeg" alt="">
                 </div>
               </NuxtLink>
               <div class="ml-3">
@@ -68,17 +68,17 @@
                 <div class="flex items-center">
                   <div class="p-2">
                     <a href="https://twitter.com/wavrin">
-                      <font-awesome-icon :icon="['fab', 'twitter']"/>
+                      <font-awesome-icon :icon="['fab', 'twitter']" />
                     </a>
                   </div>
                   <div class="p-2">
                     <a href="https://www.linkedin.com/in/wavrin/">
-                      <font-awesome-icon :icon="['fab', 'linkedin']"/>
+                      <font-awesome-icon :icon="['fab', 'linkedin']" />
                     </a>
                   </div>
                   <div class="p-2">
                     <a href="https://github.com/wavrin">
-                      <font-awesome-icon :icon="['fab', 'github']"/>
+                      <font-awesome-icon :icon="['fab', 'github']" />
                     </a>
                   </div>
                 </div>
