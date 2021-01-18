@@ -1,9 +1,9 @@
 <template>
   <article>
     <div class="p-2">
-      <a href="/">
+      <NuxtLink to="/">
         <font-awesome-icon :icon="['fas', 'chevron-circle-left']"/>
-      </a>
+      </NuxtLink>
     </div>
     <p class="text-gray-500">
       {{ article.timestamp }}
