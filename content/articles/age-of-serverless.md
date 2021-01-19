@@ -3,7 +3,7 @@ title: The Age of Serverless
 description: The future is extremely bright for serverless technologies. It's nothing new, but the tools and options are continuing to expand.
 alt: The Age of Serverless
 timestamp: January 18, 2021
-
+date:1/18/2021
 ---
 
 The future is extremely bright for serverless technologies. As a consultant I am seeing accelerating adoption of them and I can't imagine this slowing down. Serverless isn't new, but the tools and options are continuing to expand.
