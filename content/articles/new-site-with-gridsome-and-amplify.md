@@ -3,7 +3,7 @@ title: New site with Gridsome and Amplify
 description: "I've lost count how many iterations this website has had. So, of course, I wanted to build another one."
 timestamp: November 10, 2019
 alt: New site with Gridsome and Amplify
-date: 11/10/2019
+number: 2
 ---
 
 I've lost count how many iterations this website has had. There was a simple HTML/CSS site; at least twice powered by Wordpress, once by Drupal. Then there was the Ruby on Rails version, and even one using Django. There was the shared hosting, the Digital Ocean droplet, and the experiments with various services at AWS. I can say, with certainty, that I enjoyed building each version.

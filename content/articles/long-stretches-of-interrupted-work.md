@@ -3,7 +3,7 @@ title: Long stretches of uninterrupted work
 description: "I can do no better work, accomplish no harder task, then when I’m doing so during a long stretch of uninterrupted work."
 timestamp: April 1, 2019
 alt: Long stretches of uninterrupted work
-date: 4/1/2019
+number: 1
 ---
 
 As someone who works from home, I have complete control over my working environment. This control is _the_ most beneficial feature of working from home. It allows me to achieve **long stretches of uninterrupted work**.
