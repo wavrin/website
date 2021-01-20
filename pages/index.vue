@@ -10,7 +10,7 @@
           <p class="text-sm text-gray-500">
             {{ article.timestamp }}
           </p>
-          <p class="mt-3 text-base text-gray-500">
+          <p class="mt-3 text-base text-gray-700">
             {{ article.description }}
           </p>
         </NuxtLink>
