@@ -41,7 +41,7 @@
                 </div>
               </div>
               <div class="py-4 text-gray-700">
-                <p>Hello. I'm a software development consultant in Minneapolis and this is my website</p>
+                <p>Hello. I'm a software development consultant in Minneapolis and this is my website.</p>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@
               </div>
             </div>
             <div class="md:hidden p-2 text-gray-700">
-              <p>Hello. I'm a software development consultant in Minneapolis and this is my website</p>
+              <p>Hello. I'm a software development consultant in Minneapolis and this is my website.</p>
             </div>
             <Nuxt />
             <!-- /End replace -->
