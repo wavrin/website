@@ -24,7 +24,7 @@ The @gridsome/plugin-google-analytics [page](https://gridsome.org/plugins/@grids
 
 This adds the library to your `packages.json` file. Now you just need to copy/paste the code into your `gridsome.config.js` file.
 
-```code
+```js
 (module.exports = {
   "plugins": [
     {
@@ -45,7 +45,7 @@ Following the instructions on the [@gridsome/plugin-sitemap page](https://gridso
 
 You do need to make sure that your `gridsome.config.js` has a `siteUrl` set. The plugin example has some different configuration options, depending on your pages and url structure. Mine is pretty simple, as all I have are blog posts for the top directory. So my plugin code for my `gridsome.config.js` is:
 
-```s
+```js
 module.exports = {
   plugins: [
     {
@@ -90,7 +90,7 @@ export default function(Vue, { router, head, isClient }) {
 
 Finally, if you are going to use comments like I do - underneath each blog post - you would put the following code in your template:
 
-```js
+```html
 <div class="comments">
   <vue-disqus
     shortname="your_shortname_disqus"

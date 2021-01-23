@@ -16,10 +16,11 @@ This time around, there were two things I wanted to work with: Vue.js and some s
 - **A**PIs: Any data requests use reusable APIs.
 - **M**arkdown: You write your content in markdown files, which will be pre-built at runtime.
 
-
+<br>
 JAMstack encompasses several approaches. What I was really interested in is a static site generator. And it happens that many static site generators are considered JAMstack-worthy.
-
+<br><br>
 In the Vue.js community there are a few options. Among them, [Vuepress](https://vuepress.vuejs.org/) and [Gridsome](https://gridsome.org/). I chose Gridsome because its documentation is amazing, it has a large plugin community, and many starter templates.
+<br><br>
 
 With Gridsome installed locally, you can develop your site and build it - so it's ready to be deployed. To host my site, I used [AWS Amplify](https://aws.amazon.com/amplify/). Amplify is then pointed to my GitHub repository and as soon as I update it (like adding a new blog post), Amplify grabs the updated build and deploys.
 

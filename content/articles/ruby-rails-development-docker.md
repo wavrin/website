@@ -219,9 +219,9 @@ We can now easily create lots of Rails apps. And in a year from now, when we ask
 
 If we decide that one of our apps will go to production eventually, there are some advanced topics to consider:
 
-* We’ll want to move your database information into environment variables.
-* In Development, Rails compiles our assets on each request. But in Production, we’ll need to pre-compile the assets.
-* We’d likely add more services, like Redis.
-* If we are developing a lot on this application, we may grow tired of it running `bundle install` all the time. Gem caching is a great strategy to add.
+  * We’ll want to move your database information into environment variables.
+  * In Development, Rails compiles our assets on each request. But in Production, we’ll need to pre-compile the assets.
+  * We’d likely add more services, like Redis.
+  * If we are developing a lot on this application, we may grow tired of it running `bundle install` all the time. Gem caching is a great strategy to add.
 
 If you are interested in these more advanced topics, I highly recommend Rob Isenberg’s [Docker for Rails Developers](https://pragprog.com/book/ridocker/docker-for-rails-developers).
