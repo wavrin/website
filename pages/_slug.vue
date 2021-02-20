@@ -2,11 +2,11 @@
   <article>
     <div class="p-2">
       <NuxtLink to="/">
-        <font-awesome-icon :icon="['fas', 'chevron-circle-left']"/>
+        <font-awesome-icon :icon="['fas', 'chevron-circle-left']" />
       </NuxtLink>
     </div>
     <p class="text-xl font-semibold text-gray-900">
-      {{ article.title}}
+      {{ article.title }}
     </p>
     <p class="text-gray-500">
       {{ article.timestamp }}
