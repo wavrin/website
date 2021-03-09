@@ -10,9 +10,11 @@ number: 3
 
 There are three features I wanted:
 
-* Google Analytics to track site visits
-* A sitemap.xml to help crawlers index the site
-* [Disqus](https://disqus.com/) comments on each blog post
+1. Google Analytics to track site visits
+   
+2. A sitemap.xml to help crawlers index the site
+   
+3. [Disqus](https://disqus.com/) comments on each blog post
 
 The first two - Google Analytics and a sitemap generator - have official [Gridsome plugins](https://gridsome.org/plugins/). But for Disqus comments I will have to do a tiny extra, using a Vue.js plugin instead. One quick note: I'm using _yarn_ instead of _npm_, so that's what you'll see below. The plugin pages have instructions for npm if that's how you do things. :)
 
@@ -20,7 +22,9 @@ The first two - Google Analytics and a sitemap generator - have official [Gridso
 
 The @gridsome/plugin-google-analytics [page](https://gridsome.org/plugins/@gridsome/plugin-google-analytics) makes this quite simple.
 
-`yarn add @gridsome/plugin-google-analytics`
+```bash
+yarn add @gridsome/plugin-google-analytics
+```
 
 This adds the library to your `packages.json` file. Now you just need to copy/paste the code into your `gridsome.config.js` file.
 
